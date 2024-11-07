@@ -20,7 +20,7 @@
     align-items: center; /* alinha as imagens no centro */
     justify-content: flex-end; /* Distribui as imagens dentro de cada div flex-start, flex-end, center, space-between */
     gap: 30px; /* Ajuste conforme o espaçamento desejado */
-    width:20%;
+    width:30%;
 }
 
 .container__imagem {*/
