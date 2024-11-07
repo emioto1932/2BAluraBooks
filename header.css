@@ -19,7 +19,7 @@
     display: flex;
     align-items: center; /* alinha as imagens no centro */
     justify-content: flex-end; /* Distribui as imagens dentro de cada div flex-start, flex-end, center, space-between */
-    gap: 10px; /* Ajuste conforme o espaçamento desejado */
+    gap: 0px; /* Ajuste conforme o espaçamento desejado */
     width:20%;
 }
 
