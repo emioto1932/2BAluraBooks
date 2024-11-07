@@ -18,11 +18,11 @@
     background-color: var(--azul);
     display: flex;
     align-items: center; /* alinha as imagens no centro */
-    justify-content: space-between; /* Distribui as imagens dentro de cada div */
+    justify-content: flex-start; /* Distribui as imagens dentro de cada div flex-start, flex-end, center, space-between */
     /*gap: 100px; /* Ajuste conforme o espaçamento desejado */
     width: 30%; /* Define 30% da largura para cada div.container */
 }
 
-.container__imagem {
-    padding: 1em;
+.container__imagem {*/
+    padding: 1em; /*O padding ajuda a criar uma área de espaçamento interno ao redor da imagem, o que evita que ela fique encostada em outros elementos, como textos, bordas ou outros conteúdos próximos.
 }
