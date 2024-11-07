@@ -8,13 +8,14 @@
 }
 
 .cabeçalho {
-    background-color: var(--branco);
+    background-color: var(--verde);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .container {
+    background-color: var(--azul);
     display: flex;
     align-items: center;
 }
