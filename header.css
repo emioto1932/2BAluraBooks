@@ -28,3 +28,8 @@
 .container__imagem {*/
     padding: 10px; /*O padding ajuda a criar uma área de espaçamento interno ao redor da imagem, o que evita que ela fique encostada em outros elementos, como textos, bordas ou outros conteúdos próximos.
 }
+.texto-cabeçalho {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
