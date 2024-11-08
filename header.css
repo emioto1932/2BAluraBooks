@@ -10,9 +10,11 @@
 .cabeçalho {
     background-color: var(--vermelho);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; 
     align-items: center;
 }
+
+/* justify-content: flex-start ; flex-end;  center; space-between */ 
 
 .container {
     background-color: var(--verde);
