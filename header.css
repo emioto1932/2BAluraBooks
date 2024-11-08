@@ -15,7 +15,7 @@
 }
 
 .container {
-    background-color: var(--branco);
+    background-color: var(--verde);
     display: flex;
     align-items: center; /* alinha as imagens no centro */
     justify-content: flex-end; /* Distribui as imagens dentro de cada div flex-start, flex-end, center, space-between */
