@@ -18,7 +18,7 @@
     background-color: var(--verde);
     display: flex;
     align-items: center; /* alinha as imagens no centro */
-    justify-content: center; /* Distribui as imagens dentro de cada div flex-start, flex-end, center, space-between */
+    justify-content:space-between; /* Distribui as imagens dentro de cada div flex-start, flex-end, center, space-between */
     /* gap: 30px; Ajuste conforme o espaçamento desejado */
     width:30%;
 }
