@@ -31,7 +31,7 @@
     align-items: center; /* alinha as imagens no centro */
     justify-content:flex-end; /* Distribui as imagens dentro de cada div flex-start, flex-end, center, space-between */
     /* gap: 30px; Ajuste conforme o espaçamento desejado */
-    width:40%;
+    width:30%;
 }
 .container__imagem {*/
     padding: 10px; /*O padding ajuda a criar uma área de espaçamento interno ao redor da imagem, o que evita que ela fique encostada em outros elementos, como textos, bordas ou outros conteúdos próximos.
