@@ -49,3 +49,7 @@ entre o conteúdo de um elemento (como texto ou uma imagem) e suas bordas.
 O valor do padding cria um "recuo" em volta do conteúdo, aumentando o espaço 
 entre ele e a borda do elemento. Em CSS, 1em é igual ao tamanho da fonte do elemento atual. Ou seja, 
 se a fonte for 16 pixels, 1em será igual a 16px.*/
+
+.lista-menu__titulo {
+  color: var(--laranja);
+}
