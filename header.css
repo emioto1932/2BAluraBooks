@@ -9,7 +9,8 @@ cabeçalho__menu-hamburguer {
 
 .lista-menu {
   display: none;
-    /* display none oculta a lista */
+  position: absolute;
+  top: 100%;
 }
 
 .cabeçalho {
