@@ -54,6 +54,7 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
 
 .lista-menu__titulo {
   color: var(--laranja);
+  font-weight: 700;
 }
 
 .lista-menu__link {
