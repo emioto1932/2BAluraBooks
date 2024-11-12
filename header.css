@@ -53,3 +53,11 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
 .lista-menu__titulo {
   color: var(--laranja);
 }
+
+.lista-menu__link {
+  background: var(--azul-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
