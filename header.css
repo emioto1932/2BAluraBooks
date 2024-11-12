@@ -11,7 +11,7 @@ cabeçalho__menu-hamburguer {
   display: none;          /* Inicialmente o menu está oculto */
   position: absolute;     /* Posicionamento absoluto em relação ao contêiner pai */
   top: 100%;              /* A lista aparece logo abaixo do botão (a 100% da altura do contêiner) */
-  width: 60vw;
+  width: 60vw;            /*   width: 60vw;, está definindo a largura do elemento como 60% da largura da janela de visualização. */
 }
 
 
