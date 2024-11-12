@@ -11,7 +11,9 @@ cabeçalho__menu-hamburguer {
   display: none;          /* Inicialmente o menu está oculto */
   position: absolute;     /* Posicionamento absoluto em relação ao contêiner pai */
   top: 100%;              /* A lista aparece logo abaixo do botão (a 100% da altura do contêiner) */
+  width: 60vw;
 }
+
 
 /*O que é o "elemento pai"?
 Em HTML, o elemento pai é o elemento que contém o .lista-menu. O pai do .lista-menu pode ser, por exemplo, um div, section, ou até um body, dependendo da estrutura do seu HTML.
