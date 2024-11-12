@@ -27,3 +27,7 @@
   text-align: center;
   color: var(--branco);
 }
+/* ::placeholder: O duplo ponto (::) é a 
+forma correta e recomendada de selecionar pseudo-elementos no CSS. 
+O pseudo-elemento ::placeholder permite que você estilize o texto do 
+placeholder dentro de um campo de entrada (<input> ou <textarea>).*/
