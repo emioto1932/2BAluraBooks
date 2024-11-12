@@ -64,3 +64,7 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
   background-clip: text;
   text-transform: uppercase;
 }
+
+.container__botao {
+  display: none;
+}
