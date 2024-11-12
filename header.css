@@ -38,3 +38,8 @@ Nesse exemplo, o elemento pai é o div com a classe .menu-container, pois ele co
 .container__botao:checked ~ .lista-menu {
   display: block;
 }
+
+.lista-menu__titulo, .lista-menu__item {
+  padding: 1em;
+  background-color: var(--branco);
+}
