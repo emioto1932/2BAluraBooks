@@ -10,11 +10,20 @@
 </head>
 <body>
 <header class="cabeçalho">
+
     <div class="container">
-        <input type="checkbox" id="menu" class="container__botao"
+      <input type="checkbox" id="menu" class="container__botao" />
+           <!-- <input define um campo de entrada para o usuário interagir. Neste caso, o tipo de entrada é um checkbox. 
+           id="menu": Define um identificador único para esse elemento. O id permite que o elemento seja facilmente acessado ou estilizado, seja via CSS (com #menu) ou JavaScript.    
+           class="container__botao": Adiciona uma classe CSS ao elemento. A classe container__botao pode ser usada para aplicar estilos específicos a esse checkbox usando CSS.   
+               -->
+      <label for="menu">
         <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-        <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+      </label>
+            <!--  qualquer coisa dentro da tag <label> ao ser clicado, ativará o botão definido pelo id="menu" --> 
+      <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem" />
     </div>
+    
     
     <div class="container">
         <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
