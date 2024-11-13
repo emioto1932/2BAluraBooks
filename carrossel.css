@@ -22,9 +22,10 @@
   margin: 0.5em 0;
 }
 
-.card__descrição {
-    display: flex;
-    justify-content: space-between;
+.card_descricao {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
 }
 .card__botões {
     display: flex;
@@ -46,4 +47,14 @@
 .descrição__titulo {
     color: var(--laranja);
     font-weight: 700;
+}
+
+.descrição__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.descrição__texto {
+    font-size: 14px;
 }
