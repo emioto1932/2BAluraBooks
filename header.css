@@ -73,6 +73,10 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
 .container__titulo {
   display: none;
 }
+.opções {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .container__titulo,
   .container__titulo--negrito {
@@ -95,6 +99,11 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
     padding: 0 1em;
     text-transform: uppercase;
   }
+    .opções__link {
+    text-decoration: none;
+    color: var(--preto);
+  }
+
 }
 
 
