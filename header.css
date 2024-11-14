@@ -94,9 +94,9 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
   }
     .opções {
     display: flex;
+    justify-content: space-between; /* Alinha o conteúdo com espaço entre as palavras */
   }
  .opções_item {
-    justify-content: space-between; /* Alinha o conteúdo com espaço entre as palavras */
     padding: 1em;
     text-transform: uppercase;
     width: 100%; /* Certifique-se de que tenha largura suficiente para visualizar o espaçamento */
