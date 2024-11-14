@@ -95,10 +95,7 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
     .opções {
         display: flex; /* Configura o contêiner como Flexbox */
         justify-content: space-between; /* Espaço igual entre os itens */
-        align-items: center; /* Alinha os itens verticalmente ao centro */
         list-style: none; /* Remove os marcadores de lista */
-        padding: 0; /* Remove o padding padrão do ul */
-        margin: 0; /* Remove a margem padrão do ul */
     }
      .opções__item {
         padding: 0 1em; /* Espaçamento lateral */
