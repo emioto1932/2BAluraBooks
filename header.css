@@ -100,7 +100,7 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
      .opções__item {
         padding: 0 1em; /* Espaçamento lateral */
         text-transform: uppercase; /* Transforma o texto para maiúsculas */
-        display: flex; /* Garante que o texto se ajuste ao tamanho natural do item */
+      /*  display: flex;  Garante que o texto se ajuste ao tamanho natural do item */
     }
     .opções__link {
     text-decoration: none;
