@@ -98,6 +98,9 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
     .opções_item {
     padding: 1em;
     text-transform: uppercase;
+    white-space: normal;      /* Garante que o espaço seja respeitado */
+    letter-spacing: normal;    /* Ajuste se estiver afetando o espaçamento */
+    word-spacing: normal;      /* Ajuste se estiver afetando o espaçamento */
   }
     .opções__link {
     text-decoration: none;
