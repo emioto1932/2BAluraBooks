@@ -68,3 +68,7 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
 .container__botao {
   display: none;
 }
+
+@media screen and (min-width: 1024px) {
+  /* Estilos para tablets */
+}
