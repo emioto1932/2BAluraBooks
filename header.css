@@ -1,24 +1,12 @@
-cabeçalho__menu-hamburguer {
+
+.cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url('img/Menu.svg');
+    background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-
-.lista-menu {
-  display: none;          /* Inicialmente o menu está oculto */
-  position: absolute;     /* Posicionamento absoluto em relação ao contêiner pai */
-  top: 100%;              /* A lista aparece logo abaixo do botão (a 100% da altura do contêiner) */
-  width: 60vw;            /*   width: 60vw;, está definindo a largura do elemento como 60% da largura da janela de visualização. */
-}
-
-
-/*O que é o "elemento pai"?
-Em HTML, o elemento pai é o elemento que contém o .lista-menu. O pai do .lista-menu pode ser, por exemplo, um div, section, ou até um body, dependendo da estrutura do seu HTML.
-Nesse exemplo, o elemento pai é o div com a classe .menu-container, pois ele contém o input, o label e o ul (que tem a classe .lista-menu).
-*/
 
 .cabeçalho {
     background-color: var(--branco);
@@ -37,84 +25,95 @@ Nesse exemplo, o elemento pai é o div com a classe .menu-container, pois ele co
     padding: 1em;
 }
 
-.container__botao:checked ~ .lista-menu {
-  display: block;
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
 }
 
-.lista-menu__titulo, .lista-menu__item {
-  padding: 1em;
-  background-color: var(--branco);
+.container__botao:checked~.lista-menu {
+    display: block;
 }
 
-/*A propriedade padding em CSS define o espaço interno 
-entre o conteúdo de um elemento (como texto ou uma imagem) e suas bordas. 
-O valor do padding cria um "recuo" em volta do conteúdo, aumentando o espaço 
-entre ele e a borda do elemento. Em CSS, 1em é igual ao tamanho da fonte do elemento atual. Ou seja, 
-se a fonte for 16 pixels, 1em será igual a 16px.*/
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
 
 .lista-menu__titulo {
-  color: var(--laranja);
-  font-weight: 700;
+    color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
-  background: var(--azul-degrade);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-transform: uppercase;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
 
 .container__botao {
-  display: none;
-}
-.cabeçalho__menu-hamburguer {
     display: none;
-  }
-
+}
 
 .container__titulo {
-  display: none;
+    display: none;
 }
+
 .opções {
-  display: none;
+    display: none
 }
 
 @media screen and (min-width: 1024px) {
-  .container__titulo,
-  .container__titulo--negrito {
-    font-family: var(--fonte-secundario);
-    font-size: 30px;
-  }
 
-  .container__titulo {
-    font-weight: 400;
-    display: block;
-  }
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+    }
 
-  .container__titulo--negrito {
-    font-weight: 700;
-  }
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
     .opções {
-        display: flex; /* Configura o contêiner como Flexbox */
-        justify-content: space-between; /* Espaço igual entre os itens */
-        list-style: none; /* Remove os marcadores de lista */
+        display: flex;
     }
-     .opções__item {
-        padding: 0 1em; /* Espaçamento lateral */
-        text-transform: uppercase; /* Transforma o texto para maiúsculas */
+
+    .opções__item {
+        padding: 0 1em;
+        text-transform: uppercase;
     }
+
     .opções__link {
-    text-decoration: none;
-    color: var(--preto);
-  }
+        text-decoration: none;
+        color: var(--preto);
+    }
 
     .container__imagem-transparente {
-     display: none;
-  }
+        display: none;
+    }
+
+    .cabeçalho__menu-hamburguer {
+        display: none;
+    }
+
+    .opções__botão:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opções__botão {
+        display: none;
+    }
 
 }
-
-
-
-
