@@ -71,22 +71,25 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
 
 
 @media screen and (min-width: 1024px) {
-      /* Estilos para tablets */
-  .container__titulo,  .container__titulo--negrito {
+  .container__titulo,
+  .container__titulo--negrito {
     font-family: var(--fonte-secundario);
     font-size: 30px;
   }
-}
-.container__titulo {
+
+  .container__titulo {
     font-weight: 400;
     display: block;
   }
 
-.container__titulo--negrito {
-  font-weight: 700;
+  .container__titulo--negrito {
+    font-weight: 700;
+  }
 }
 
-
+.container__titulo {
+  display: none;
+}
 
 
 
