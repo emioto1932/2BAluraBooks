@@ -68,6 +68,9 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
 .container__botao {
   display: none;
 }
+.cabeçalho__menu-hamburguer {
+    display: none;
+  }
 
 
 .container__titulo {
