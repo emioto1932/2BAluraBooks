@@ -31,6 +31,21 @@
   /*background-position: 1em;: Este valor aplica o deslocamento da 
   imagem na direção horizontal (à esquerda). Isso posiciona a imagem de 
   fundo a 1em da borda esquerda do elemento.*/
+
+  @media screen and (min-width: 1024px) {
+  .banner__titulo {
+    font-size: 36px;
+  }
+
+  .banner__pesquisa {
+    width: 50%;
+  }
+
+  .banner__pesquisa::placeholder {
+    background-position: 7em;
+  }
+}
+
  
 }
 /* ::placeholder: O duplo ponto (::) é a 
