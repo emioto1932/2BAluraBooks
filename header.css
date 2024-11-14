@@ -93,14 +93,18 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
     font-weight: 700;
   }
     .opções {
-    display: flex;
-    justify-content: space-between; /* Alinha o conteúdo com espaço entre as palavras */
-  }
- .opções_item {
-    padding: 1em;
-    text-transform: uppercase;
-    width: 100%; /* Certifique-se de que tenha largura suficiente para visualizar o espaçamento */
-}
+        display: flex; /* Configura o contêiner como Flexbox */
+        justify-content: space-between; /* Espaço igual entre os itens */
+        align-items: center; /* Alinha os itens verticalmente ao centro */
+        list-style: none; /* Remove os marcadores de lista */
+        padding: 0; /* Remove o padding padrão do ul */
+        margin: 0; /* Remove a margem padrão do ul */
+    }
+     .opções_item {
+        padding: 0 1em;
+        text-transform: uppercase;
+        width: 100%; /* Certifique-se de que tenha largura suficiente para visualizar o espaçamento */
+    }
     .opções__link {
     text-decoration: none;
     color: var(--preto);
