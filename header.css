@@ -110,7 +110,7 @@ se a fonte for 16 pixels, 1em será igual a 16px.*/
   }
 
     .container__imagem-transparente {
-    display: none;
+     display: none;
   }
 
 }
