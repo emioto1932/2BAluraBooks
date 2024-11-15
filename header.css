@@ -138,6 +138,14 @@
     .opções {
         margin-right: auto;
     }
+@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções__botão:checked ~ .opções__rotulo > .opções__item {
+    background: var(--azul-degrade);
+    color: var(--branco);
+  }
+}
 
     .container__texto {
         display: block;
