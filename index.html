@@ -15,28 +15,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="cabeçalho">
 
+     <header class="cabeçalho">
     <div class="container">
-      <input type="checkbox" id="menu" class="container__botao" />
-           <!-- <input define um campo de entrada para o usuário interagir. Neste caso, o tipo de entrada é um checkbox. 
-           id="menu": Define um identificador único para esse elemento. O id permite que o elemento seja facilmente acessado ou estilizado, seja via CSS (com #menu) ou JavaScript.    
-           class="container__botao": Adiciona uma classe CSS ao elemento. A classe container__botao pode ser usada para aplicar estilos específicos a esse checkbox usando CSS.   
-               -->
+      <input type="checkbox" id="menu" class="container__botao">
       <label for="menu">
         <span class="cabeçalho__menu-hamburguer container__imagem"></span>
       </label>
-
       <ul class="lista-menu">
-          <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Design & UX</a>
+        </li>
+      </ul>
+      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu">
+          <li class="opções__item">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
           <li class="lista-menu__item">
             <a href="#" class="lista-menu__link">Programação</a>
-              <!--  <a>: a tag <a> é usada para criar um link (ancoragem) que redireciona o usuário para outra página, uma seção específica da página ou um recurso. 
-              href="#": o atributo href (hyperlink reference) especifica o destino do link. 
-              Neste exemplo, # é usado como valor, que geralmente representa uma âncora vazia. 
-              sso significa que o link não redirecionará o usuário para outra página ou seção ao ser clicado. 
-              Esse uso é comum em links de navegação ou botões que, inicialmente, 
-              não têm um destino específico ou têm funcionalidade manipulada por JavaScript.-->
           </li>
           <li class="lista-menu__item">
             <a href="#" class="lista-menu__link">Front-end</a>
@@ -50,33 +65,26 @@
           <li class="lista-menu__item">
             <a href="#" class="lista-menu__link">Design & UX</a>
           </li>
-    </ul>
-        
-            <!--  qualquer coisa dentro da tag <label> ao ser clicado, ativará o botão definido pelo id="menu" --> 
-          <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem" />
-                 <h1 class="container__titulo">
-                 <b class="container__titulo--negrito">Alura</b>Books
-                 </h1>
-                 <ul class="opções">
-                  <li class="opções__item">Categorias</li>
-                  <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
-                  <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
-                </ul>
-    </div>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+      </ul>
 
-   
-    
-    
-    <div class="container">
-        <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"
-  /></a>
-        <a href="#" class="container__link"> <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem" />
-  <p class="container__texto">Minha sacola</p></a>
-        <a href="#" class="container__link"> <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem" />
-  <p class="container__texto">Meu perfil</p></a>
     </div>
-   
-</header>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+          class="container__imagem container__imagem-transparente"></a>
+      <a href="#" class="container__link">
+        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
 <section class="banner">
           <h2 class="banner__titulo">Já sabe por onde começar?</h2>
           <p class="banner__texto">
